@@ -42,13 +42,19 @@
 
 ## The problem
 
-You have an idea. You need a beautiful presentation. So you either:
+Every AI tool today generates the same ugly presentations. You've seen them — **white background, bullet points, generic stock icons, "AI-looking" layouts** that all blend together. Whether it's ChatGPT, Claude, Manus, or any other agent — the output is always text-heavy slides that look like they were made by a robot in 2020.
 
-- Spend **hours** fighting PowerPoint templates and stock photos
-- Pay **$8-45/month** for Gamma, Beautiful.ai, or Tome — and stay locked in their editor
-- Use ChatGPT to generate bullet points, then still design everything yourself
+And the paid alternatives?
 
-**None of these give you visually stunning, AI-generated slides with voiceover — from a single prompt.**
+- **Gamma** ($8-20/mo), **Beautiful.ai** ($12-45/mo), **Tome** ($7-10/mo) — locked into their editors, limited preset templates, no video output
+- **PowerPoint + AI** — you still end up fighting templates for hours
+- **ChatGPT / Claude / Manus** — generates bullet-point outlines, not actual visual presentations. The slides all look the same: plain, text-heavy, zero visual identity
+
+**The result: every AI-generated presentation looks identical.** No visual storytelling. No design system. No personality. Just walls of text on white backgrounds.
+
+### What if AI could generate presentations that actually look *designed*?
+
+Not text on a white slide. Not bullet points with clip art. **Actually beautiful, visually rich slides** — with a unified color palette, custom typography, visual motifs that carry through every slide, and content that tells a story instead of listing facts.
 
 ## The solution
 
@@ -62,13 +68,17 @@ One command. Gathos drops into your AI agent. Then just describe your idea:
 You: "Create a presentation about why most startups fail — dark, cinematic, 10 slides"
 ```
 
-Your agent handles everything — design system, beautiful slide images, narration, PowerPoint, video. You get a `.pptx` and an `.mp4`. Done.
+Your agent builds a **complete design system** — color palette, typography, visual motifs — then generates every slide as a **full-bleed, visually rich image** with narration scripts. Not bullet points on white. Not text-heavy layouts. Actual visual storytelling.
+
+You get a `.pptx` and an `.mp4`. Presentations that look like a designer spent days on them.
 
 ---
 
 ## What Gathos actually does
 
-Gathos is a **skill** — a single file that turns any AI coding agent into a full presentation studio.
+Gathos is a **skill** — a single file that turns any AI coding agent into a visual presentation studio.
+
+It doesn't generate text slides. It generates **designed slides** — each one is a full 16:9 image with baked-in typography, data visualizations, visual metaphors, and a consistent design language across every slide.
 
 It plugs into the agent you already use. No new app. No new subscription. No new workflow.
 
@@ -131,21 +141,21 @@ Blog post to presentation. Thread to slides. Idea to video. Any visual style you
 
 ## Why Gathos vs. the rest
 
-| | **Gamma** | **Beautiful.ai** | **Tome** | **Gathos** |
+| | **ChatGPT / Claude / Manus** | **Gamma** | **Beautiful.ai** | **Gathos** |
 |---|:---:|:---:|:---:|:---:|
-| Price | $8-20/mo | $12-45/mo | $7-10/mo | **Free** |
-| Annual cost | $96-180/yr | $144-540/yr | $80-120/yr | **$0** |
-| Open source | No | No | No | **Yes** |
+| Price | Free-$20/mo | $8-20/mo | $12-45/mo | **Free** |
+| Visual quality | Text-heavy, generic | Template-based | Template-based | **Full-bleed designed images** |
+| Design system | None | Basic theme | Basic theme | **Custom palette, motifs, typography** |
+| Visual styles | One (plain text) | Limited presets | Limited presets | **Unlimited (any style you describe)** |
+| Output feels like... | Bullet points from a robot | A template with AI text | A template with AI text | **A designer spent days on it** |
 | Video with voiceover | No | No | No | **Yes** |
-| Works in your IDE/terminal | No | No | No | **Yes** |
-| Any visual style | Limited presets | Limited presets | Limited presets | **Unlimited** |
-| Agent-agnostic | N/A | N/A | N/A | **Yes** |
-| Presentation + video | Slides only | Slides only | Slides only | **.pptx + .mp4** |
-| Lock-in | Their editor | Their editor | Their editor | **None** |
-| Iterate with AI | Basic | Basic | Basic | **Full conversation** |
-| Custom branding | Paid tier only | Paid tier only | Paid tier only | **Built in** |
+| Works in your IDE/terminal | Yes | No | No | **Yes** |
+| Open source | No | No | No | **Yes** |
+| Presentation + video | Text slides only | Slides only | Slides only | **.pptx + .mp4** |
+| Lock-in | None | Their editor | Their editor | **None** |
+| Iterate with AI | Basic chat | Basic edit | Basic edit | **Full conversation** |
 
-> Gamma Plus is $8/mo (annual) or $10/mo (monthly). Pro is $15/mo (annual) or $20/mo (monthly). Beautiful.ai Pro is $12/mo (annual) or $45/mo (monthly). Team is $40-50/user/mo. Tome is $7/mo (annual) or $10/mo (monthly). **Gathos is free forever.**
+> Gamma Plus: $8/mo (annual) or $10/mo monthly. Pro: $15-20/mo. Beautiful.ai Pro: $12/mo (annual) or $45/mo monthly. Team: $40-50/user/mo. **Gathos is free forever.**
 
 ---
 
