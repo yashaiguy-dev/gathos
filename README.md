@@ -36,7 +36,7 @@
   <img src="examples/automation-kills-demand/slide-15.png" width="49%" />
 </p>
 
-<p align="center"><em>15 slides. Unified design system. Consistent color palette. Narration scripts. All from one prompt.</em></p>
+<p align="center"><em>Not bullet points on white. Not templates with swapped text.<br>15 visually rich slides with a unified design system, consistent palette, and narration — all from one prompt.</em></p>
 
 ---
 
