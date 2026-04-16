@@ -1,20 +1,20 @@
 <p align="center">
   <h1 align="center">Gathos</h1>
-  <p align="center"><strong>Open-source Gamma alternative. Plug into any AI agent.<br>Turn ideas into beautiful presentations — with video and voiceover.</strong></p>
+  <p align="center"><strong>The AI agent skill that creates beautiful presentations.</strong></p>
+  <p align="center">One skill. Any agent. Visually stunning slides + video with voiceover.</p>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/works_with-Claude_Code-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/works_with-Gemini_CLI-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/works_with-Cursor-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/works_with-Windsurf-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/works_with-Any_Agent-black?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/skill_for-Claude_Code-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/skill_for-Gemini_CLI-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/skill_for-Cursor-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/skill_for-Windsurf-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/skill_for-Any_Agent-black?style=for-the-badge" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square" />
   <img src="https://img.shields.io/badge/price-free-brightgreen?style=flat-square" />
-  <img src="https://img.shields.io/badge/skills-agent_agnostic-blue?style=flat-square" />
 </p>
 
 ---
@@ -36,71 +36,106 @@
   <img src="examples/automation-kills-demand/slide-15.png" width="49%" />
 </p>
 
-<p align="center"><em>Not bullet points on white. Not templates with swapped text.<br>15 visually rich slides with a unified design system, consistent palette, and narration — all from one prompt.</em></p>
+<p align="center"><em>Every slide is a full-bleed designed image — unified color palette, custom typography, visual motifs.<br>Not a template. Not bullet points. Not text on white. This is what your AI agent can do now.</em></p>
 
 ---
 
-## The problem
+## The problem: AI presentations look terrible
 
-Every AI tool today generates the same ugly presentations. You've seen them — **white background, bullet points, generic stock icons, "AI-looking" layouts** that all blend together. Whether it's ChatGPT, Claude, Manus, or any other agent — the output is always text-heavy slides that look like they were made by a robot in 2020.
+You've asked your AI agent to make a presentation. We all have. And every time, the result is the same:
 
-And the paid alternatives?
+**White background. Bullet points. Generic icons. Text-heavy layouts that scream "a robot made this."**
 
-- **Gamma** ($8-20/mo), **Beautiful.ai** ($12-45/mo), **Tome** ($7-10/mo) — locked into their editors, limited preset templates, no video output
-- **PowerPoint + AI** — you still end up fighting templates for hours
-- **ChatGPT / Claude / Manus** — generates bullet-point outlines, not actual visual presentations. The slides all look the same: plain, text-heavy, zero visual identity
+It doesn't matter which agent you use — ChatGPT, Claude, Gemini, Cursor, Manus — they all generate the same thing. Plain text organized into slides. No visual identity. No design system. No storytelling. Just information dumped onto white rectangles.
 
-**The result: every AI-generated presentation looks identical.** No visual storytelling. No design system. No personality. Just walls of text on white backgrounds.
+And the standalone presentation tools?
 
-### What if AI could generate presentations that actually look *designed*?
+- **Gamma** ($8-20/mo) — template-based, locked in their editor, every deck looks the same
+- **Beautiful.ai** ($12-45/mo) — prettier templates, still limited presets, still their editor
+- **Tome** ($7-10/mo) — pivoted away from presentations entirely
 
-Not text on a white slide. Not bullet points with clip art. **Actually beautiful, visually rich slides** — with a unified color palette, custom typography, visual motifs that carry through every slide, and content that tells a story instead of listing facts.
+**The gap:** Your AI agent is incredibly powerful — it can write code, debug systems, build entire apps. But ask it to make a presentation and it gives you the visual equivalent of a Word document.
 
-## The solution
+### Gathos closes that gap.
+
+It's a **skill** you install into your agent. One file. After that, your agent doesn't generate text slides — it generates **visually designed presentations** with:
+
+- A unified **design system** (color palette, typography, visual motifs)
+- **Full-bleed slide images** in any style you can describe
+- **Narration scripts** calibrated to timing
+- A finished **`.pptx`** and optional **`.mp4` video with AI voiceover**
+
+The same agent that was giving you bullet points on white now gives you slides that look like a professional designer spent days on them.
+
+---
+
+## Install — one command
 
 ```bash
 curl -sL https://raw.githubusercontent.com/yashaiguy-dev/gathos/main/install.sh | bash
 ```
 
-One command. Gathos drops into your AI agent. Then just describe your idea:
+That's it. The installer auto-detects your agent (Claude Code, Gemini CLI, Cursor, Windsurf) and drops the skill in the right place.
+
+Then just talk to your agent:
 
 ```
-You: "Create a presentation about why most startups fail — dark, cinematic, 10 slides"
+You: "Create a presentation about the future of remote work — cinematic dark, 10 slides"
 ```
 
-Your agent builds a **complete design system** — color palette, typography, visual motifs — then generates every slide as a **full-bleed, visually rich image** with narration scripts. Not bullet points on white. Not text-heavy layouts. Actual visual storytelling.
-
-You get a `.pptx` and an `.mp4`. Presentations that look like a designer spent days on them.
+Your agent takes it from there.
 
 ---
 
-## What Gathos actually does
-
-Gathos is a **skill** — a single file that turns any AI coding agent into a visual presentation studio.
-
-It doesn't generate text slides. It generates **designed slides** — each one is a full 16:9 image with baked-in typography, data visualizations, visual metaphors, and a consistent design language across every slide.
-
-It plugs into the agent you already use. No new app. No new subscription. No new workflow.
+## What your agent does with Gathos
 
 ```
-Your idea
-    ↓
-Your AI agent + Gathos skill
-    ↓
-Unified design system (colors, typography, visual motifs)
-    ↓
-AI-generated slide images (16:9, visually consistent, any style)
-    ↓
-Narration scripts (calibrated to slide timing)
-    ↓
-.pptx PowerPoint file (full-bleed slides + speaker notes)
-    ↓
-.mp4 video with AI voiceover (choose your voice)
+Your idea ("the future of remote work — cinematic dark, 10 slides")
+      │
+      ▼
+  Asks you: tone, audience, visual style, slide count
+      │
+      ▼
+  Builds a unified design system
+  (color palette, typography, visual motifs, mood)
+      │
+      ▼
+  Generates every slide:
+  • Detailed image prompt (4-8 sentences, hex colors, text placement)
+  • On-screen text (headlines, stats, callouts, diagrams)
+  • Narration script (timed to slide duration, never reads the slide)
+      │
+      ▼
+  Creates AI-generated slide images (16:9, visually consistent)
+      │
+      ▼
+  Assembles .pptx (full-bleed slides + speaker notes)
+      │
+      ▼
+  Optional: generates .mp4 video with AI voiceover
 ```
 
-### Any visual style. Any topic. Any agent.
+### Before Gathos vs. After Gathos
 
-Minimalist flat. Neon cyberpunk. Retro propaganda. Watercolor. Crayon sketch. Corporate clean. Anime. Cinematic dark. You describe it — the agent builds an entire design system around it and keeps every slide visually consistent.
+| | Without Gathos | With Gathos |
+|---|---|---|
+| **What you get** | Bullet points on white backgrounds | Full-bleed designed slide images |
+| **Design system** | None — every slide looks different | Unified palette, typography, motifs across all slides |
+| **Visual style** | One: plain text | Anything — cyberpunk, propaganda, watercolor, minimalist, anime... |
+| **Content quality** | Lists of facts | Visual storytelling with narrative arc |
+| **Video output** | No | `.mp4` with AI voiceover |
+| **Feels like** | A robot dumped text onto slides | A designer spent days on it |
+
+---
+
+## Any style you can describe
+
+Minimalist flat. Neon cyberpunk. Retro propaganda. Watercolor. Crayon sketch. Corporate clean. Anime. Cinematic dark. Vaporwave. Bauhaus. You name it — the agent builds a complete design system around your description and keeps every slide visually consistent.
+
+**Every slide gets:**
+- **Image prompt** — 4-8 sentences with hex colors, text placement, lighting, mood, and visual continuity from the previous slide
+- **On-screen text** — headlines, stats, bullet points, callouts, diagrams, code snippets, footnotes
+- **Narration** — voiceover script at ~3 words/second, matches your tone, complements the visual instead of reading it
 
 ---
 
@@ -116,120 +151,95 @@ Minimalist flat. Neon cyberpunk. Retro propaganda. Watercolor. Crayon sketch. Co
 | **Copilot** | Add as context file | Ask naturally |
 | **Any agent that can run shell commands** | Drop the file in | Ask naturally |
 
-It's a `.md` file. If your agent can read a file and run `curl` + `python3`, it works.
+It's a single `.md` file. If your agent can read a file and run `curl` + `python3`, it works.
+
+<details>
+<summary><strong>Manual install instructions (click to expand)</strong></summary>
+
+**Claude Code:**
+```bash
+mkdir -p ~/.claude/commands
+curl -sL https://raw.githubusercontent.com/yashaiguy-dev/gathos/main/idea-to-presentation.md \
+  -o ~/.claude/commands/idea-to-presentation.md
+```
+
+**Gemini CLI:**
+```bash
+mkdir -p ~/.gemini/commands
+curl -sL https://raw.githubusercontent.com/yashaiguy-dev/gathos/main/idea-to-presentation.md \
+  -o ~/.gemini/commands/idea-to-presentation.md
+```
+
+**Cursor:**
+```bash
+mkdir -p .cursor/rules
+curl -sL https://raw.githubusercontent.com/yashaiguy-dev/gathos/main/idea-to-presentation.md \
+  -o .cursor/rules/idea-to-presentation.md
+```
+
+**Windsurf:**
+```bash
+mkdir -p .windsurf/rules
+curl -sL https://raw.githubusercontent.com/yashaiguy-dev/gathos/main/idea-to-presentation.md \
+  -o .windsurf/rules/idea-to-presentation.md
+```
+
+**Any other agent:** Download `idea-to-presentation.md` and add it to your agent's system prompt or rules directory.
+</details>
 
 ---
 
 ## Use cases
 
 ### YouTube creators
-Generate visually stunning presentation videos for explainers, tutorials, and faceless content. Pick a voice. Get an `.mp4`. Upload directly.
+Visually stunning presentation videos for explainers, tutorials, and faceless content. Pick a voice. Get an `.mp4`. Upload directly.
 
 ### Founders & startups
-Pitch decks in minutes, not days. Consistent design system across every slide. Iterate by talking to your agent: *"Make slide 3 more impactful"* — done.
+Pitch decks in minutes, not days. Consistent design across every slide. Iterate naturally: *"Make slide 3 more impactful"* — done.
 
 ### Educators & students
-Turn any topic into a visual lecture with narration. The agent builds narrative arcs, diagrams, and timing-calibrated voiceover scripts.
+Turn any topic into a visual lecture with narration. Narrative arcs, diagrams, timing-calibrated voiceover.
 
 ### Developers & technical talks
-Conference talks, internal demos, architecture overviews. The skill adapts — educational content gets diagrams, technical content gets flowcharts and annotated layouts.
+Conference talks, internal demos, architecture overviews. The skill adapts — educational content gets labeled diagrams, technical content gets flowcharts.
 
 ### Content creators
-Blog post to presentation. Thread to slides. Idea to video. Any visual style you can describe. The agent builds it.
+Blog post to presentation. Thread to slides. Idea to video. Any visual style. The agent builds it.
 
 ---
 
-## Why Gathos vs. the rest
+## Why Gathos vs. everything else
 
-| | **ChatGPT / Claude / Manus** | **Gamma** | **Beautiful.ai** | **Gathos** |
+| | **Your AI agent (no skill)** | **Gamma** | **Beautiful.ai** | **Your agent + Gathos** |
 |---|:---:|:---:|:---:|:---:|
-| Price | Free-$20/mo | $8-20/mo | $12-45/mo | **Free** |
-| Visual quality | Text-heavy, generic | Template-based | Template-based | **Full-bleed designed images** |
-| Design system | None | Basic theme | Basic theme | **Custom palette, motifs, typography** |
-| Visual styles | One (plain text) | Limited presets | Limited presets | **Unlimited (any style you describe)** |
-| Output feels like... | Bullet points from a robot | A template with AI text | A template with AI text | **A designer spent days on it** |
-| Video with voiceover | No | No | No | **Yes** |
-| Works in your IDE/terminal | Yes | No | No | **Yes** |
-| Open source | No | No | No | **Yes** |
-| Presentation + video | Text slides only | Slides only | Slides only | **.pptx + .mp4** |
-| Lock-in | None | Their editor | Their editor | **None** |
-| Iterate with AI | Basic chat | Basic edit | Basic edit | **Full conversation** |
+| Price | Free | $8-20/mo | $12-45/mo | **Free** |
+| Visual quality | Text on white | Template presets | Template presets | **Full-bleed designed images** |
+| Design system | None | Basic theme picker | Basic theme picker | **Custom palette, motifs, typography** |
+| Visual styles | One (plain text) | ~20 templates | ~20 templates | **Unlimited (describe any style)** |
+| Output looks like... | A robot made it | A template with swapped text | A template with swapped text | **A designer spent days on it** |
+| Video + voiceover | No | No | No | **Yes (.mp4 with AI voice)** |
+| Works in your IDE | Yes | No (their website) | No (their website) | **Yes** |
+| Open source | N/A | No | No | **Yes (MIT)** |
+| Iterate by talking | Basic | Basic edit UI | Basic edit UI | **Full conversation** |
+| Lock-in | None | Their editor | Their editor | **None — .pptx is yours** |
 
-> Gamma Plus: $8/mo (annual) or $10/mo monthly. Pro: $15-20/mo. Beautiful.ai Pro: $12/mo (annual) or $45/mo monthly. Team: $40-50/user/mo. **Gathos is free forever.**
-
----
-
-## Install
-
-### One command (recommended)
-
-```bash
-curl -sL https://raw.githubusercontent.com/yashaiguy-dev/gathos/main/install.sh | bash
-```
-
-Auto-detects your agent and installs the skill in the right place.
-
-### Manual install
-
-<details>
-<summary><strong>Claude Code</strong></summary>
-
-```bash
-mkdir -p ~/.claude/commands
-curl -sL https://raw.githubusercontent.com/yashaiguy-dev/gathos/main/idea-to-presentation.md \
-  -o ~/.claude/commands/idea-to-presentation.md
-```
-Then type: `/idea-to-presentation`
-</details>
-
-<details>
-<summary><strong>Gemini CLI</strong></summary>
-
-```bash
-mkdir -p ~/.gemini/commands
-curl -sL https://raw.githubusercontent.com/yashaiguy-dev/gathos/main/idea-to-presentation.md \
-  -o ~/.gemini/commands/idea-to-presentation.md
-```
-Then ask: *"Create a presentation about [your idea]"*
-</details>
-
-<details>
-<summary><strong>Cursor</strong></summary>
-
-```bash
-mkdir -p .cursor/rules
-curl -sL https://raw.githubusercontent.com/yashaiguy-dev/gathos/main/idea-to-presentation.md \
-  -o .cursor/rules/idea-to-presentation.md
-```
-Then ask: *"Create a presentation about [your idea]"*
-</details>
-
-<details>
-<summary><strong>Windsurf</strong></summary>
-
-```bash
-mkdir -p .windsurf/rules
-curl -sL https://raw.githubusercontent.com/yashaiguy-dev/gathos/main/idea-to-presentation.md \
-  -o .windsurf/rules/idea-to-presentation.md
-```
-Then ask: *"Create a presentation about [your idea]"*
-</details>
-
-<details>
-<summary><strong>Any other agent</strong></summary>
-
-Download `idea-to-presentation.md` and either:
-- Add it to your agent's system prompt / rules directory
-- Paste the contents as context at the start of your conversation
-
-The skill is self-contained — it tells the agent exactly what to do.
-</details>
+> Gamma Plus: $8/mo annual, $10/mo monthly. Pro: $15-20/mo. Beautiful.ai Pro: $12/mo annual, $45/mo monthly. Team: $40-50/user/mo. **Gathos is free.**
 
 ---
 
 ## Connect Gathos APIs (optional)
 
-**Steps 1-4 are completely free.** Without any API key, you get a full presentation blueprint:
+**The skill works without any API key.** Your agent generates the full presentation blueprint — design system, image prompts, narration scripts — for free. You can feed those prompts into any image generator or TTS you want.
+
+To unlock **automatic image generation + voiceover** inside the agent, get your API keys at **[gathos.com](https://gathos.com)**:
+
+```bash
+# Add to ~/.zshrc or ~/.bashrc
+export GATHOS_IMAGE_API_KEY="your_key_here"
+export GATHOS_TTS_API_KEY="your_key_here"
+```
+
+**Available TTS voices:** josh, koko, pixxy, prof, rochie, spraky
 
 <details>
 <summary><strong>Example: what you get without any API key (click to expand)</strong></summary>
@@ -258,21 +268,8 @@ When you say *"How AI will affect consumer demand — neon cyberpunk, 10 slides"
 **Slide 1 — Narration:**
 > "Every economy runs on one simple engine: people buying things. But what happens when artificial intelligence starts replacing the very paychecks that fuel consumer spending?"
 
-You get this for **every slide** — image prompt, on-screen text, narration script. Feed the prompts into any image generator. Feed the narration into any TTS. Or connect Gathos APIs and let the agent do it all automatically.
-
+You get this for **every slide**. Feed the prompts into Midjourney, DALL-E, Flux, or any image generator. Or connect Gathos APIs and the agent does it all automatically.
 </details>
-
-### Unlock one-click generation
-
-To unlock **automatic AI slide generation + voiceover**, get your API keys at **[gathos.com](https://gathos.com)**:
-
-```bash
-# Add to ~/.zshrc or ~/.bashrc
-export GATHOS_IMAGE_API_KEY="your_key_here"
-export GATHOS_TTS_API_KEY="your_key_here"
-```
-
-**Available TTS voices:** josh, koko, pixxy, prof, rochie, spraky
 
 ### What each key unlocks
 
@@ -294,41 +291,9 @@ brew install ffmpeg                 # Video assembly (Mac)
 
 ---
 
-## How it works under the hood
-
-```
-You give an idea
-      │
-      ▼
-┌─────────────────────────────┐
-│  Step 1: Collect inputs      │  Idea, tone, audience, visual style, slide count
-│  Step 2: Design system       │  Color palette, motifs, typography, narrative arc
-│  Step 3: Expand slides       │  Image prompts, on-screen text, narration for every slide
-│  Step 4: Write JSON          │  Structured blueprint saved to disk
-└─────────────┬───────────────┘
-              │  FREE — no API key needed
-              ▼
-┌─────────────────────────────┐
-│  Step 5: Generate images     │  Gathos Image API → 16:9 slide PNGs
-│  Step 6: Assemble .pptx      │  Full-bleed slides + speaker notes
-│  Step 7: Generate voiceover  │  Gathos TTS API → narration audio
-│  Step 8: Assemble .mp4       │  ffmpeg → final video with voiceover
-└─────────────────────────────┘
-              │
-              ▼
-        .pptx + .mp4
-```
-
-Every slide gets:
-- **Image prompt** — 4-8 sentences with hex colors, text placement, style details, and visual continuity between slides
-- **On-screen text** — headlines, stats, bullet points, callouts, diagrams, code snippets
-- **Narration** — voiceover script at ~3 words/second, matching your tone, never just reading the slide
-
----
-
 ## Editing & iteration
 
-Talk to your agent to refine anything:
+This is the power of being a skill inside your agent — iteration is a conversation:
 
 - **"Redo slide 3"** — regenerates just that slide, keeps everything else
 - **"Change the style to watercolor"** — new design system, all slides regenerated
@@ -336,18 +301,18 @@ Talk to your agent to refine anything:
 - **"Make it more hype"** — adjusts tone across narration
 - **"Show me the outline first"** — preview the structure before committing
 
-This is the advantage of living inside your agent — iteration is a conversation, not a UI.
+Try doing that in Gamma. You can't — you're clicking through their UI. Here, you just talk.
 
 ---
 
 ## License
 
-MIT — use it, fork it, ship it, sell it. Do whatever you want.
+MIT — use it, fork it, ship it, sell it.
 
 ---
 
 <p align="center">
-  <strong>One idea. One command. Beautiful presentation.</strong><br><br>
+  <strong>Your AI agent already writes code, debugs systems, and builds apps.<br>Now it makes beautiful presentations too.</strong><br><br>
   <code>curl -sL https://raw.githubusercontent.com/yashaiguy-dev/gathos/main/install.sh | bash</code><br><br>
-  <a href="https://gathos.com">Get API keys at gathos.com</a>
+  <a href="https://gathos.com">Get API keys at gathos.com</a> to unlock image generation + voiceover
 </p>
