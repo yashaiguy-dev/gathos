@@ -63,6 +63,22 @@
 
 ---
 
+## No credits. No per-image fees. Ever.
+
+Every other tool nickel-and-dimes you:
+
+- **Gamma** — 400 free AI credits, then you pay. Every regeneration costs credits.
+- **Midjourney** — $10-60/mo for limited generations
+- **DALL-E** — pay per image
+- **Replicate / fal.ai / Banana** — pay per image, per second of GPU time
+- **Beautiful.ai** — $12-45/mo subscription just to access AI features
+
+**Gathos: unlimited slide generation. No credits. No per-image cost. No metered billing.**
+
+Generate 10 slides or 300 slides. Regenerate a slide 50 times until it's perfect. Generate an entire presentation, hate the style, and regenerate the whole thing in a completely different aesthetic. It doesn't matter — there's no meter running.
+
+---
+
 ## The problem: AI presentations look terrible
 
 You've asked your AI agent to make a presentation. We all have. And every time, the result is the same:
@@ -236,6 +252,7 @@ Blog post to presentation. Thread to slides. Idea to video. Any visual style. Th
 | | **Your AI agent (no skill)** | **Gamma** | **Beautiful.ai** | **Your agent + Gathos** |
 |---|:---:|:---:|:---:|:---:|
 | Price | Free | $8-20/mo | $12-45/mo | **Free** |
+| Per-image / credits | N/A (text only) | 400 free, then pay | Subscription-gated | **Unlimited. No credits. No meter.** |
 | Visual quality | Text on white | Template presets | Template presets | **Full-bleed designed images** |
 | Design system | None | Basic theme picker | Basic theme picker | **Custom palette, motifs, typography** |
 | Visual styles | One (plain text) | ~20 templates | ~20 templates | **Unlimited (describe any style)** |
