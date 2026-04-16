@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">Gathos</h1>
   <p align="center"><strong>The AI agent skill that creates beautiful presentations.</strong></p>
-  <p align="center">One skill. Any agent. Visually stunning slides + video with voiceover.</p>
+  <p align="center">One skill. Any agent. Visually stunning slides + video with voiceover.<br><strong>No credits. No per-image fees. Unlimited generations.</strong></p>
 </p>
 
 <p align="center">
