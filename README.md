@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center">Gathos</h1>
-  <p align="center"><strong>Open-source Gamma alternative. Plug into any AI agent.<br>Turn ideas into stunning presentations — with video and voiceover.</strong></p>
+  <p align="center"><strong>Open-source Gamma alternative. Plug into any AI agent.<br>Turn ideas into beautiful presentations — with video and voiceover.</strong></p>
 </p>
 
 <p align="center">
@@ -19,15 +19,36 @@
 
 ---
 
+## See it to believe it
+
+> **Prompt:** *"How automation kills consumer demand — retro propaganda style, 15 slides"*
+
+<p align="center">
+  <img src="examples/automation-kills-demand/slide-01.png" width="49%" />
+  <img src="examples/automation-kills-demand/slide-05.png" width="49%" />
+</p>
+<p align="center">
+  <img src="examples/automation-kills-demand/slide-08.png" width="49%" />
+  <img src="examples/automation-kills-demand/slide-10.png" width="49%" />
+</p>
+<p align="center">
+  <img src="examples/automation-kills-demand/slide-03.png" width="49%" />
+  <img src="examples/automation-kills-demand/slide-15.png" width="49%" />
+</p>
+
+<p align="center"><em>15 slides. Unified design system. Consistent color palette. Narration scripts. All from one prompt.</em></p>
+
+---
+
 ## The problem
 
-You have an idea. You need a presentation. So you either:
+You have an idea. You need a beautiful presentation. So you either:
 
-- Spend **2 hours** fighting PowerPoint templates
-- Pay **$10-20/month** for Gamma, Beautiful.ai, or Tome — and stay locked in their editor
+- Spend **hours** fighting PowerPoint templates and stock photos
+- Pay **$8-45/month** for Gamma, Beautiful.ai, or Tome — and stay locked in their editor
 - Use ChatGPT to generate bullet points, then still design everything yourself
 
-**None of these give you a finished presentation with AI-generated visuals and voiceover.**
+**None of these give you visually stunning, AI-generated slides with voiceover — from a single prompt.**
 
 ## The solution
 
@@ -35,13 +56,13 @@ You have an idea. You need a presentation. So you either:
 curl -sL https://raw.githubusercontent.com/yashaiguy-dev/gathos/main/install.sh | bash
 ```
 
-One command. Gathos drops into your AI agent. Then:
+One command. Gathos drops into your AI agent. Then just describe your idea:
 
 ```
-You: "Create a presentation about why most startups fail"
+You: "Create a presentation about why most startups fail — dark, cinematic, 10 slides"
 ```
 
-Your agent handles everything — design system, slide images, narration, PowerPoint, video. You get a `.pptx` and an `.mp4`. Done.
+Your agent handles everything — design system, beautiful slide images, narration, PowerPoint, video. You get a `.pptx` and an `.mp4`. Done.
 
 ---
 
@@ -56,18 +77,24 @@ Your idea
     ↓
 Your AI agent + Gathos skill
     ↓
-Unified design system (colors, typography, motifs)
+Unified design system (colors, typography, visual motifs)
     ↓
-AI-generated slide images (16:9, visually consistent)
+AI-generated slide images (16:9, visually consistent, any style)
     ↓
-Narration scripts (calibrated to timing)
+Narration scripts (calibrated to slide timing)
     ↓
-.pptx PowerPoint file
+.pptx PowerPoint file (full-bleed slides + speaker notes)
     ↓
-.mp4 video with AI voiceover
+.mp4 video with AI voiceover (choose your voice)
 ```
 
-### Works with every agent
+### Any visual style. Any topic. Any agent.
+
+Minimalist flat. Neon cyberpunk. Retro propaganda. Watercolor. Crayon sketch. Corporate clean. Anime. Cinematic dark. You describe it — the agent builds an entire design system around it and keeps every slide visually consistent.
+
+---
+
+## Works with every agent
 
 | Agent | How to install | How to use |
 |-------|---------------|------------|
@@ -86,27 +113,28 @@ It's a `.md` file. If your agent can read a file and run `curl` + `python3`, it 
 ## Use cases
 
 ### YouTube creators
-Generate visually stunning presentation videos for explainers, tutorials, and faceless content. Pick a voice. Get an `.mp4`. Upload.
+Generate visually stunning presentation videos for explainers, tutorials, and faceless content. Pick a voice. Get an `.mp4`. Upload directly.
 
 ### Founders & startups
 Pitch decks in minutes, not days. Consistent design system across every slide. Iterate by talking to your agent: *"Make slide 3 more impactful"* — done.
 
 ### Educators & students
-Turn any topic into a visual lecture. The agent builds narrative arcs, diagrams, and narration scripts calibrated to timing. Works for classroom presentations or online courses.
+Turn any topic into a visual lecture with narration. The agent builds narrative arcs, diagrams, and timing-calibrated voiceover scripts.
 
 ### Developers & technical talks
-Conference talks, internal demos, architecture overviews. The skill adapts — educational content gets diagrams and code snippets, technical content gets flowcharts and annotated layouts.
+Conference talks, internal demos, architecture overviews. The skill adapts — educational content gets diagrams, technical content gets flowcharts and annotated layouts.
 
 ### Content creators
-Blog post to presentation. Thread to slides. Idea to video. Any visual style — minimalist flat, neon cyberpunk, watercolor, crayon sketch, corporate clean. You describe it, the agent builds it.
+Blog post to presentation. Thread to slides. Idea to video. Any visual style you can describe. The agent builds it.
 
 ---
 
 ## Why Gathos vs. the rest
 
-| | Gamma | Beautiful.ai | Tome | **Gathos** |
+| | **Gamma** | **Beautiful.ai** | **Tome** | **Gathos** |
 |---|:---:|:---:|:---:|:---:|
-| Price | $10/mo | $12/mo | $20/mo | **Free** |
+| Price | $8-20/mo | $12-45/mo | $7-10/mo | **Free** |
+| Annual cost | $96-180/yr | $144-540/yr | $80-120/yr | **$0** |
 | Open source | No | No | No | **Yes** |
 | Video with voiceover | No | No | No | **Yes** |
 | Works in your IDE/terminal | No | No | No | **Yes** |
@@ -115,6 +143,9 @@ Blog post to presentation. Thread to slides. Idea to video. Any visual style —
 | Presentation + video | Slides only | Slides only | Slides only | **.pptx + .mp4** |
 | Lock-in | Their editor | Their editor | Their editor | **None** |
 | Iterate with AI | Basic | Basic | Basic | **Full conversation** |
+| Custom branding | Paid tier only | Paid tier only | Paid tier only | **Built in** |
+
+> Gamma Plus is $8/mo (annual) or $10/mo (monthly). Pro is $15/mo (annual) or $20/mo (monthly). Beautiful.ai Pro is $12/mo (annual) or $45/mo (monthly). Team is $40-50/user/mo. Tome is $7/mo (annual) or $10/mo (monthly). **Gathos is free forever.**
 
 ---
 
@@ -188,22 +219,48 @@ The skill is self-contained — it tells the agent exactly what to do.
 
 ## Connect Gathos APIs (optional)
 
-**Steps 1-4 are completely free.** Without any API key, you get:
-- Unified design system (colors, typography, mood)
-- Detailed image prompts for every slide
-- On-screen text with exact placement
-- Narration scripts calibrated to timing
-- Structured JSON you can feed into ANY image generator or TTS
+**Steps 1-4 are completely free.** Without any API key, you get a full presentation blueprint:
 
-**To unlock one-click AI slide generation + voiceover**, get your API keys at **[gathos.com](https://gathos.com)**:
+<details>
+<summary><strong>Example: what you get without any API key (click to expand)</strong></summary>
+
+When you say *"How AI will affect consumer demand — neon cyberpunk, 10 slides"*, the agent generates:
+
+**Design System:**
+```json
+{
+  "color_palette": {
+    "background": "#0A0E1A",
+    "primary": "#00F0FF",
+    "secondary": "#FF2E63",
+    "accent": "#FFD700",
+    "text": "#E8E8E8"
+  },
+  "visual_motifs": ["holographic data streams", "crumbling shopping carts", "glitch effects"],
+  "typography_style": "Wide-tracked uppercase condensed for headlines, clean mono for data",
+  "mood": "ominous, electric, data-driven"
+}
+```
+
+**Slide 1 — Image Prompt:**
+> A wide 16:9 neon cyberpunk illustration. Deep #0A0E1A background with subtle grid lines in #00F0FF fading into the distance. Center frame: a massive holographic shopping cart rendered in wireframe #00F0FF, slowly dissolving into digital particles that drift upward. Inside the cart: glowing product boxes flickering and glitching in #FF2E63. Top of frame: "THE CONSUMER COLLAPSE" in massive wide-tracked uppercase #E8E8E8 with a #FF2E63 glow. Bottom right: "WHEN AI REPLACES PAYCHECKS, WHO BUYS?" in smaller mono #FFD700. Horizontal scan lines and chromatic aberration across the frame. Atmosphere: eerie digital decay, economic warning.
+
+**Slide 1 — Narration:**
+> "Every economy runs on one simple engine: people buying things. But what happens when artificial intelligence starts replacing the very paychecks that fuel consumer spending?"
+
+You get this for **every slide** — image prompt, on-screen text, narration script. Feed the prompts into any image generator. Feed the narration into any TTS. Or connect Gathos APIs and let the agent do it all automatically.
+
+</details>
+
+### Unlock one-click generation
+
+To unlock **automatic AI slide generation + voiceover**, get your API keys at **[gathos.com](https://gathos.com)**:
 
 ```bash
-# Add to your shell profile (~/.zshrc or ~/.bashrc)
+# Add to ~/.zshrc or ~/.bashrc
 export GATHOS_IMAGE_API_KEY="your_key_here"
 export GATHOS_TTS_API_KEY="your_key_here"
 ```
-
-That's it. Your agent now generates slide images and voiceover automatically.
 
 **Available TTS voices:** josh, koko, pixxy, prof, rochie, spraky
 
@@ -253,17 +310,15 @@ You give an idea
 ```
 
 Every slide gets:
-- **Image prompt** — 4-8 sentences with hex colors, text placement, style details, visual continuity
-- **On-screen text** — headlines, stats, bullet points, callouts, code snippets, footnotes
-- **Narration** — voiceover script at ~3 words/second, matching the tone, never just reading the slide
-
-The agent maintains visual continuity across all slides — same color palette, recurring motifs, narrative flow from opening hook to closing statement.
+- **Image prompt** — 4-8 sentences with hex colors, text placement, style details, and visual continuity between slides
+- **On-screen text** — headlines, stats, bullet points, callouts, diagrams, code snippets
+- **Narration** — voiceover script at ~3 words/second, matching your tone, never just reading the slide
 
 ---
 
 ## Editing & iteration
 
-Talk to your agent to refine:
+Talk to your agent to refine anything:
 
 - **"Redo slide 3"** — regenerates just that slide, keeps everything else
 - **"Change the style to watercolor"** — new design system, all slides regenerated
@@ -282,7 +337,7 @@ MIT — use it, fork it, ship it, sell it. Do whatever you want.
 ---
 
 <p align="center">
-  <strong>One idea. One command. Stunning presentation.</strong><br><br>
+  <strong>One idea. One command. Beautiful presentation.</strong><br><br>
   <code>curl -sL https://raw.githubusercontent.com/yashaiguy-dev/gathos/main/install.sh | bash</code><br><br>
   <a href="https://gathos.com">Get API keys at gathos.com</a>
 </p>
