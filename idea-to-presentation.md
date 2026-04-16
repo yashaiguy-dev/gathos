@@ -6,16 +6,14 @@ This prompt works in any AI coding assistant — Claude Code, Gemini CLI, Cursor
 
 ## Prerequisites
 
-Before using image generation or TTS features, set these environment variables with your [Gathos](https://gathos.com) API keys:
+Steps 1-4 (design system, prompts, JSON) work without any API keys. Keys are only needed for Steps 5+ (image generation, TTS, video).
 
-```bash
-export GATHOS_IMAGE_API_KEY="your_image_api_key_here"
-export GATHOS_TTS_API_KEY="your_tts_api_key_here"
-```
+When keys are needed, the skill automatically checks:
+1. **Environment variables** (`$GATHOS_IMAGE_API_KEY`, `$GATHOS_TTS_API_KEY`)
+2. **`.env` file** in the current working directory
+3. **Asks once** — if neither exists, prompts you for your keys and saves them to `.env` so you're never asked again
 
 Get your API keys at [gathos.com](https://gathos.com).
-
-Steps 1-4 (design system, prompts, JSON) work without any API keys. Keys are only needed for Steps 5+ (image generation, TTS, video).
 
 ## Step 1: Collect Inputs
 
@@ -295,20 +293,39 @@ If the user says **no**, stop here — the JSON is the deliverable.
 
 If the user says **yes**, proceed below.
 
-**First, verify API keys are set:**
+**First, resolve API keys using this priority order:**
+
+1. Check environment variables `$GATHOS_IMAGE_API_KEY` and `$GATHOS_TTS_API_KEY`
+2. If not found, check for a `.env` file in the current working directory and read keys from it
+3. If neither exists, ask the user for their keys ONCE, then save them to a `.env` file:
+
 ```bash
-[ -z "$GATHOS_IMAGE_API_KEY" ] && echo "ERROR: Set GATHOS_IMAGE_API_KEY first (export GATHOS_IMAGE_API_KEY=your_key)" && exit 1
+# Read from .env if it exists
+if [ -f .env ]; then
+  export $(grep -v '^#' .env | xargs)
+fi
 ```
 
-If the key is not set, tell the user:
-> Set your Gathos Image API key: `export GATHOS_IMAGE_API_KEY="your_key_here"`
-> Get your key at [gathos.com](https://gathos.com)
+If keys are still not found after checking both, ask the user:
+> "Enter your Gathos Image API key (get one free at [gathos.com](https://gathos.com)):"
+
+After the user provides their key(s), **immediately save to `.env`** so they never have to enter them again:
+
+```bash
+echo 'GATHOS_IMAGE_API_KEY=their_key_here' >> .env
+echo 'GATHOS_TTS_API_KEY=their_key_here' >> .env
+```
+
+Tell the user:
+> Saved your API keys to `.env` — you won't be asked again.
+
+**IMPORTANT:** Once keys are resolved (from env, .env, or user input), store them in memory for the rest of the conversation. Never ask for keys more than once per session.
 
 ### Gathos API Reference
 
 - **Base URL:** `https://gathos.com`
-- **Image API Key:** read from `$GATHOS_IMAGE_API_KEY` environment variable
-- **TTS API Key:** read from `$GATHOS_TTS_API_KEY` environment variable
+- **Image API Key:** resolved from `$GATHOS_IMAGE_API_KEY` env var or `.env` file
+- **TTS API Key:** resolved from `$GATHOS_TTS_API_KEY` env var or `.env` file
 - **Slide resolution:** `1344x768` (16:9) — use width/height params
 - **Available TTS voices:** josh, koko, pixxy, prof, rochie, spraky
 
@@ -512,14 +529,7 @@ If the user says **yes** and picks a voice, proceed to Step 7.
 
 ## Step 7: Generate Voiceover via Gathos TTS (Optional — Video Add-on)
 
-**First, verify TTS API key is set:**
-```bash
-[ -z "$GATHOS_TTS_API_KEY" ] && echo "ERROR: Set GATHOS_TTS_API_KEY first (export GATHOS_TTS_API_KEY=your_key)" && exit 1
-```
-
-If the key is not set, tell the user:
-> Set your Gathos TTS API key: `export GATHOS_TTS_API_KEY="your_key_here"`
-> Get your key at [gathos.com](https://gathos.com)
+**Resolve TTS API key** using the same priority order from Step 5 (env var → `.env` file → ask once and save). If the key was already resolved in Step 5, reuse it — do NOT ask again.
 
 ### 7a: Create Audio Directory
 
