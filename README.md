@@ -36,7 +36,30 @@
   <img src="examples/automation-kills-demand/slide-15.png" width="49%" />
 </p>
 
-<p align="center"><em>Every slide is a full-bleed designed image — unified color palette, custom typography, visual motifs.<br>Not a template. Not bullet points. Not text on white. This is what your AI agent can do now.</em></p>
+<p align="center"><em>15 slides. Retro propaganda style. Unified design system. All from one prompt.</em></p>
+
+<br>
+
+> **Prompt:** *"Investor pitch on drone anatomy in agriculture — clean tech, aerial photography, 15 slides"*
+
+<p align="center">
+  <img src="examples/drone-investor-pitch/slide-01.png" width="49%" />
+  <img src="examples/drone-investor-pitch/slide-03.png" width="49%" />
+</p>
+<p align="center">
+  <img src="examples/drone-investor-pitch/slide-04.png" width="49%" />
+  <img src="examples/drone-investor-pitch/slide-08.png" width="49%" />
+</p>
+<p align="center">
+  <img src="examples/drone-investor-pitch/slide-09.png" width="49%" />
+  <img src="examples/drone-investor-pitch/slide-11.png" width="49%" />
+</p>
+
+<p align="center"><em>Same skill. Completely different style. Professional investor pitch with data visualizations, product shots, and market stats.</em></p>
+
+<br>
+
+<p align="center"><strong>Not templates. Not bullet points. Not text on white.<br>This is what your AI agent can do now.</strong></p>
 
 ---
 
